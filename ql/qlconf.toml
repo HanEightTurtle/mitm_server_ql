@@ -1,0 +1,11 @@
+[["青龙"]]
+qlurl ='http://localhost:5700'
+qlid = 'xxxx'
+qlsecret = 'xxxx'
+qlremark = 'ql1'
+
+[["青龙"]]
+qlurl ='http://localhost:5700'
+qlid = 'xxxx'
+qlsecret = 'xxxx'
+qlremark = 'ql2'

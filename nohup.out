@@ -1,0 +1,123 @@
+Running on all addresses.
+Use http://172.20.0.7:40082/ to access the application
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7fed28a43160>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 146, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 56, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7fed28530c10>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 146, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 56, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+WARNING:tornado.access:404 GET /favicon.ico (172.20.0.1) 1.88ms
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7fed25f3d9d0>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    parent_conn.recv()
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 255, in recv
+    buf = self._recv_bytes()
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 419, in _recv_bytes
+    buf = self._recv(4)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 388, in _recv
+    raise EOFError
+EOFError
+Running on all addresses.
+Use http://172.20.0.7:40082/ to access the application
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7f098ed4e310>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 62, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7f098ed4e550>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 62, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7f098ed82ca0>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 62, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7f098ed4ea60>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 62, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:pywebio.session.base:Error when invoke `<function user_page.<locals>.on_close at 0x7f098ed82310>`
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/pywebio/utils.py", line 148, in catch_exp_call
+    return func()
+  File "/root/pguoguo/mitm-server/main.py", line 147, in on_close
+    end_all_par()
+  File "/root/pguoguo/mitm-server/mitm_utils.py", line 62, in mitm_p_end
+    parent_conn.send('Done')
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 211, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 416, in _send_bytes
+    self._send(header + buf)
+  File "/opt/conda/lib/python3.9/multiprocessing/connection.py", line 373, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
