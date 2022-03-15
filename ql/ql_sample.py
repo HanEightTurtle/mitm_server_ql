@@ -56,4 +56,9 @@ def get_conf(all_data_path):
         value = lj.join([account.get(name) for account in data.get(app)])
         conf.append([name,value,app])
 
+    app,name,lj = ['滴滴果园leafxcy','ddgyToken','@']
+    if data.get(app):
+        value = lj.join([account.get(name) for account in data.get(app)])
+        conf.append([name,value,app])
+
     return conf
