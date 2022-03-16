@@ -61,4 +61,9 @@ def get_conf(all_data_path):
         value = lj.join([account.get(name) for account in data.get(app)])
         conf.append([name,value,app])
 
+    app,name,lj = ['快手极速版leafxcy','ksjsbCookie','@']
+    if data.get(app):
+        value = lj.join([account.get(name) for account in data.get(app)])
+        conf.append([name,value,app])
+
     return conf
